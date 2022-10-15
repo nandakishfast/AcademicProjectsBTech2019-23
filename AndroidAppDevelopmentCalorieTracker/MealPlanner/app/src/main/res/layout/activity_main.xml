@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/meal1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome User!"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_marginTop="135dp"
+        android:id="@+id/planner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Meal Planner"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:id="@+id/calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Target"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add/Update/Delete food"
+        android:id="@+id/add_food_bt"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view Available foods"
+        android:id="@+id/view_food_bt"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add/Update/Delete Meal Times"
+        android:id="@+id/add_meal_bt"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view available meal Times"
+        android:id="@+id/view_meal_bt"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Meal"
+        android:id="@+id/insert_bt"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View ALl Meals"
+        android:id="@+id/view_all_ui"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View ALl Meals On A Day"
+        android:id="@+id/view_all_ui_on"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

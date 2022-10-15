@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/choose_date_view_on"
+        android:layout_gravity="center"
+        android:focusableInTouchMode="false"
+        android:cursorVisible="false"
+        android:text="Choose DATE"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_view_on"
+        android:layout_gravity="center"
+        android:focusableInTouchMode="false"
+        android:cursorVisible="false"
+        android:text="View"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/srcoll_view_on">
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view_all_plan_on"
+            android:layout_gravity="center_horizontal">
+
+
+
+        </TableLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
